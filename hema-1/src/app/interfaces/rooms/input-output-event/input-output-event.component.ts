@@ -13,7 +13,7 @@ export class InputOutputEventComponent {
 @Output() clickEventEmitter:EventEmitter<number>=new EventEmitter<number>()
 
 resetNumber(){
-  console.log("tricker");
+
   this.clickEventEmitter.emit(0)
 }
 }
